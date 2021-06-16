@@ -1,3 +1,4 @@
+#!/bin/bash
 # Preparation:
 # Step 1.
 # Run "sudo nvidia-xconfig --coolbits=28"
