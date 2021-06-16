@@ -1,7 +1,7 @@
 #!/bin/bash
 # Preparation:
 # Step 1.
-# Run "sudo nvidia-xconfig --coolbits=28"
+# Run "sudo nvidia-xconfig --cool-bits=28"
 # Step 2.
 # Edit the file below (sudo needed)
 # /etc/X11/Xwrapper.config
@@ -9,6 +9,8 @@
 # "needs_root_rights=no"
 # to 
 # "needs_root_rights=yes"
+# Step 3.
+# reboot
 
 # This variable should be set to the output of "echo $DISPLAY" in
 # the monitor driven by Nvidia GPU.
